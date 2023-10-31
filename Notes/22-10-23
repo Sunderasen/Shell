@@ -1,0 +1,35 @@
+ps -ef --->   gives the proccesses and process id of the all users of the cpu.
+
+
+nproc  --->  Gives cpu info
+
+
+set -x --->  debug mode , ececute the given commands with the tiitle of the comment.
+
+
+free -g -->  used to see how much memory used.
+
+
+df -h   --> give the free space of disk in human readable format.
+
+
+awk ---> this is the extension command that will cut the exact output that bwe want and show it. 
+#Syntax ps -ef | grep python | awk -F" " '{print $2}' --> used to see the process id of the mentioned process.
+
+
+set -e --> exit the scripts when thers is an error accours and rest of the lines not executed. it wont check the command we used a pipeline in the same line. set -o pipefail is manatory if set -e is used.
+
+
+logfile is key to find error ...
+
+
+curl - used to show the information that stored in the url
+
+wget - used to download the information that stored in the url.
+
+$? --> denotes the exit status if exit status is 0 command is successfully executed . if any other number occurs the command is not ececuted.
+
+
+
+
+

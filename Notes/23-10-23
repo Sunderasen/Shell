@@ -1,0 +1,5 @@
+if git push refused to push use the forced push
+
+git  push -f origin branch name
+
+sudo find / -name (file or folder name to find) --> used to find the folder or file in the system

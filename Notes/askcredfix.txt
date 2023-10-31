@@ -1,0 +1,11 @@
+                            using cache
+
+
+git config --global credential.helper cache
+
+
+git config --global credential.helper 'cache --timeout=3600'
+
+
+After this once git ask credentials while pushing and pulling and then it 
+willnot ask credentials for the given timelimit in second command.

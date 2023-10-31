@@ -1,0 +1,30 @@
+Tar command
+
+gzip - widely used method  | extension .gz
+
+used for file archiving and compression
+
+Syntax - tar [option] [Archivename] [files to archive]
+
+Options:
+
+-c  --> To Create a archive Without Compression.
+-v  --> To view the files.
+-f  --> f refers to the file we are using or the file name.
+-x  --> to extract the archived file.
+
+archive file creation --> tar -cvf test.tar one.txt two.txt             ## test.txt => the name of archive file to be created ##
+
+To view the files inside the Archived file --> tar -tvf test.tar
+
+to extract the tar archived file --> tar -xvf test.tar 
+
+
+Archiving with Compression - Gzip
+
+Archiving with Compression --> tar -czvf test.tar.gz one.txt two.txt
+
+To view the files inside the Compressed Archive file --> tar -tvf test.tar.gz
+
+to extract the files inside .tar.gz --> tar -xzvf test.tar.gzr
+
