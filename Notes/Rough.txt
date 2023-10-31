@@ -1,0 +1,5 @@
+tar -cvf filename.tar files
+
+tar -cxvf filename.tar.gz files
+
+
