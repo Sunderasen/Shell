@@ -1,0 +1,3 @@
+			FTP
+
+file transfer protocal - needs to install vsftpd package in server - and then needs to create users for ftp

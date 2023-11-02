@@ -1,1 +1,10 @@
-hii
+Boolean Operators
+
+&& --> used to run a commands in single line , second command will run after the successful execution of the first command 
+
+
+|| --> second commond willrun if first command fails to run.
+
+
+;  --> runs the second commond wheater first command is true or false. 
+
