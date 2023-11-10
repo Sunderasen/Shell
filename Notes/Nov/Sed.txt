@@ -1,0 +1,21 @@
+SED
+
+
+Stream Editor 
+
+used to seperate the words in file like grep .
+
+actions :-
+
+	p - Print
+	w - Write
+
+syntax with Examples:
+
+sed '1p' filename.txt  -> prints the firstline of the file double times.
+
+sed -n '1p' filename.txt -> executes the parthicular line.
+
+sed -n '/hiii/p' filename.txt -> works like a grep.
+
+sed -n '/hii/w' new.txt filename.txt -> saves the executed line the new.txt
